@@ -1,0 +1,15 @@
+#new-post-form {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.post-content-textarea {
+    height: 120px;
+    resize: none;
+}
+
+.post-content-textarea::placeholder {
+    position: absolute;
+    top: 10px;
+}

@@ -1,0 +1,10 @@
+.site-info {
+    width: 391px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.description {
+    width: 320px;
+}

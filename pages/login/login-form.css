@@ -1,0 +1,35 @@
+.account-form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-top: 26px;
+}
+
+input {
+    margin-top: 12px;
+}
+
+.alert-span {
+    font-size: var(--font-size-5);
+    font-weight: var(--font-weight-4);
+    margin-top: 12px;
+}
+
+.wrong-email, .wrong-password {
+    display: none;
+}
+
+.login-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 38px;
+    margin-top: 26px;
+    color: var(--grey900);
+    background-color: var(--brand100);
+    border: 1px solid var(--brand100);
+    border-radius: var(--radius-4);
+    padding: 0px 16px;
+}

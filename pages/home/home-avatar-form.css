@@ -1,0 +1,12 @@
+#avatar-change-form {
+    display: flex;
+    flex-direction: column;
+}
+
+#avatar-change-form > label {
+    margin-bottom: 12px;
+}
+
+#avatar-change-form > input {
+    margin-bottom: 46px;
+}

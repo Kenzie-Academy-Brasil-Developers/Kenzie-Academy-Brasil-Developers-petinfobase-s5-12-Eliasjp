@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Global CSS -->
+    <link rel="stylesheet" href="styles/globalStyles.css">
+    <link rel="stylesheet" href="styles/titles.css">
+    <link rel="stylesheet" href="styles/texts.css">
+    <link rel="stylesheet" href="styles/form.css">
+    <link rel="stylesheet" href="styles/spinner.css">
+
+    <!-- Local CSS -->
+    <link rel="stylesheet" href="pages/login/main.css">
+    <link rel="stylesheet" href="pages/login/site-info.css">
+    <link rel="stylesheet" href="pages/login/login-photos-container.css">
+    <link rel="stylesheet" href="pages/login/login.css">
+    <link rel="stylesheet" href="pages/login/login-form.css">
+    <link rel="stylesheet" href="pages/login/login-register-container.css">
+    
+    <!-- Javascripts -->
+    <script defer src="pages/login/form.js" type="module"></script>
+    <script defer src="pages/login/login-localStorage.js" type="module"></script>
+
+    <title>Petinfo - Login</title>
+
+</head>
+
+<body>
+
+    <main class="main-container">
+
+        <section class="site-info">
+            <h1>Petinfo</h1>
+            <h2><span class="brand100-text">Amor</span> e <span class="brand100-text">carinho</span> por meio do conhecimento</h2>
+            <p class="description">Todas as informações para melhorar a vida do seu pet em um só lugar</p>
+
+            <div class="photo-container">
+                <div class="photos-1">
+                    <div class="photos-1-container">
+                        <img src="src/images/cat-1.svg" alt="gato">
+                        <img src="src/images/dog-1.svg" alt="cão">
+                    </div>
+                    <img src="src/images/dog-2.svg" alt="cão">
+                </div>
+
+                <img src="src/images/cat-2.svg" alt="gato">
+            </div>
+
+        </section>
+
+        <section class="login">
+
+            <form class="account-form">
+                <h4>Login</h4>
+
+                <label for="email">Email</label>
+                <input required="true" type="text" class="form-input email-input" name="input-form" id="email" placeholder="Digite seu email aqui...">
+                <span class="alert100-text alert-span wrong-email">O email não está registrado</span>
+
+                <label for="password">Senha</label>
+                <input required="true" type="password" class="form-input password-input" name="input-form" id="password" placeholder="Digite sua senha aqui...">
+                <span class="alert100-text alert-span wrong-password">A senha está incorreta</span>
+
+                <button class="login-button" type="submit">Acessar</button>
+            </form>
+
+            <section class="register-container">
+                <h5>Ainda não possui conta?</h5>
+                <small>Clicando no botão abaixo, você pode se cadastrar rapidamente</small>
+                <a class="register-link" href="pages/register/register.html" target="_self">Cadastrar</a> 
+            </section>
+
+        </section>
+    </main>
+
+</body>
+
+</html>

@@ -1,0 +1,17 @@
+.photos-container {
+    display: flex;
+    flex-direction: row;
+    gap: 18px;
+}
+
+.side-container {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+.pair-photos {
+    display: flex;
+    flex-direction: row;
+    gap: 18px;
+}

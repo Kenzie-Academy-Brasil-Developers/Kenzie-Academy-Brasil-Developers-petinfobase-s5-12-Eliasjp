@@ -1,0 +1,9 @@
+.delete-alert {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.delete-alert > p {
+    margin-bottom: 30px;
+}

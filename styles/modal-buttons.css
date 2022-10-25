@@ -1,0 +1,33 @@
+.button-container {
+    display: flex;
+    gap: 16px;
+    justify-content: end;
+}
+
+.confirm {
+    height: 38px;
+    padding: 0px 16px;
+    background-color: var(--brand100);
+    border: 1px solid var(--brand100);
+    border-radius: var(--radius-4);
+    color: var(--grey900);
+}
+
+
+.alert {
+    height: 38px;
+    padding: 0px 16px;
+    background-color: var(--alert100);
+    border: 1px solid var(--alert100);
+    border-radius: var(--radius-4);
+    color: var(--grey900);
+}
+
+.cancel {
+    height: 38px;
+    padding: 0px 16px;
+    background-color: var(--grey600);
+    border: 1px solid var(--grey600);
+    border-radius: var(--radius-4);
+    color: var(--grey400);
+}

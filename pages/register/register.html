@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Global CSS -->
+    <link rel="stylesheet" href="../../styles/globalStyles.css">
+    <link rel="stylesheet" href="../../styles/titles.css">
+    <link rel="stylesheet" href="../../styles/texts.css">
+    <link rel="stylesheet" href="../../styles/form.css">
+    <link rel="stylesheet" href="../../styles/pop-up.css">
+
+    <!-- Local CSS -->
+    <link rel="stylesheet" href="register-body.css">
+    <link rel="stylesheet" href="register-container.css">
+    <link rel="stylesheet" href="register-main.css">
+    <link rel="stylesheet" href="register-form.css">
+    <link rel="stylesheet" href="candy-container.css">
+    <link rel="stylesheet" href="register-photos-container.css">
+
+    <!-- Javascript -->
+    <script defer src="register-form.js" type="module"></script>
+
+    <title>Document</title>
+
+</head>
+
+<body>
+
+    <section class="container">
+
+    <main class="register-main">
+        <h4>Cadastro</h4>
+
+        <form id="register-form">
+            <label class="labels" for="username">Usuário</label>
+            <input required="true" name="input-form" class="username-input" type="text" placeholder="Digite seu usuário aqui" id="username">
+            
+            <label class="labels" for="email">Email</label>
+            <input required="true" name="input-form" class="email-input" type="email" placeholder="Digite seu email aqui" id="email">
+
+            <label class="labels" for="avatar">Link da foto do perfil</label>
+            <input required="true" name="input-form" class="avatar-input" type="url" placeholder="Insira o link aqui" id="avatar">
+
+            <label class="labels" for="password">Senha</label>
+            <input required="true" name="input-form" class="password-input" type="password" placeholder="Digite sua senha aqui" id="password">
+
+            <button class="submit-register" type="submit" form="register-form">Cadastrar</button>
+        </form>
+
+        <a class="login-anchor" href="../../index.html" target="_self">Voltar para o login</a>
+    </main>
+
+    <div class="candy-container">
+        <h1>Petinfo</h1>
+
+        <h2><span class="brand100-text">Ooooooba!</span></h2>
+
+        <p>Agora vamos poder contribuir para o bem estar do seu pet por meio do conhecimento</p>
+
+        <section class="photos-container">
+            <img src="../../src/images/cat-3.svg" alt="gato">
+
+            <div class="side-container">
+                <div class="pair-photos">
+                    <img src="../../src/images/cat-4.svg" alt="gato">
+                    <img src="../../src/images/dog-3.svg" alt="cão">
+                </div>
+                <img src="../../src/images/cat-5.svg" alt="gato">
+            </div>
+        </section>
+    </div>
+
+    </section>
+    
+</body>
+
+</html>

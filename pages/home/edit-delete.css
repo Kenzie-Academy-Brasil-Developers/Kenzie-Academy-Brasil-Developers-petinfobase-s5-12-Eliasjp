@@ -1,0 +1,23 @@
+.edit-delete-container {
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+}
+
+.edit-button {
+    height: 32px;
+    background-color: var(--grey900);
+    border: 1px solid var(--grey600);
+    border-radius: var(--radius-4);
+    padding: 0px 8px;
+    color: var(--grey100);
+}
+
+.delete-button {
+    height: 32px;
+    background-color: var(--grey900);
+    border: 1px solid var(--grey700);
+    border-radius: var(--radius-4);
+    padding: 0px 8px;
+    color: var(--grey400);
+}

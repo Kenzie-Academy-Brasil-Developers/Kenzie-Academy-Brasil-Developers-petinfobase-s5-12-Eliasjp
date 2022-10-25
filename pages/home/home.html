@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Global CSS -->
+    <link rel="stylesheet" href="../../styles/globalStyles.css">
+    <link rel="stylesheet" href="../../styles/titles.css">
+    <link rel="stylesheet" href="../../styles/texts.css">
+    <link rel="stylesheet" href="../../styles/form.css">
+    <link rel="stylesheet" href="../../styles/modal.css">
+    <link rel="stylesheet" href="../../styles/modal-buttons.css">
+    <link rel="stylesheet" href="../../styles/pop-up.css">
+
+    <!-- Local CSS -->
+    <link rel="stylesheet" href="home-body.css">
+    <link rel="stylesheet" href="home-header.css">
+    <link rel="stylesheet" href="navigation.css">
+    <link rel="stylesheet" href="dropdown.css">
+    <link rel="stylesheet" href="home-avatar-form.css">
+    <link rel="stylesheet" href="new-post.css">
+    <link rel="stylesheet" href="home-post.css">
+    <link rel="stylesheet" href="edit-delete.css">
+    <link rel="stylesheet" href="delete-modal.css">
+    <link rel="stylesheet" href="full-post-modal.css">
+
+    <!-- Javascript -->
+    <script defer src="check-storage.js" type="module"></script>
+    <script defer src="navigation.js" type="module"></script>
+    <script defer src="home-create-post.js" type="module"></script>
+    <script defer src="home-render-post.js" type="module"></script>
+    <script defer src="postEvents.js" type="module"></script>
+
+    <title>Document</title>
+
+</head>
+
+<body>
+
+    <div class="container">
+    <header class="site-header">
+        <h3>Petinfo</h3>
+        <nav class="user-nav">
+            <button class="new-post">Criar publicação</button>
+            <div class="avatar-dropdown">
+                <button class="profile-button"><img class="avatar"></button>
+                <span class="dropdown-container">
+                </span>
+            </div>
+        </nav>
+    </header>
+
+    <main class="post-container">
+        <h4>Feed</h4>
+        <ul class="post-list"></ul>
+    </main>
+
+    </div>
+</body>
+
+</html>

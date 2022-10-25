@@ -1,0 +1,15 @@
+.user-nav {
+    max-width: 300px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.new-post {
+    height: 41px;
+    color: var(--grey900);
+    background-color: var(--brand100);
+    border: 1px solid var(--brand100);
+    border-radius: var(--radius-4);
+    padding: 0px 16px;
+}

@@ -1,0 +1,12 @@
+.site-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.avatar {
+    width: 41px;
+    height: 41px;
+    border-radius: 100%;
+    border: 1px solid var(--brand100);
+}

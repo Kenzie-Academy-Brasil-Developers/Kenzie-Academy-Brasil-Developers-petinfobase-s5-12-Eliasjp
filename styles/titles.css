@@ -1,0 +1,35 @@
+h1 {
+    font-size: var(--font-size-1);
+    font-weight: var(--font-weight-2);
+    color: var(--gray100);
+}
+
+h2 {
+    font-size: var(--font-size-1);
+    font-weight: var(--font-weight-2);
+    color: var(--gray100);
+}
+
+h3 {
+    font-size: var(--font-size-2);
+    font-weight: var(--font-weight-2);
+    color: var(--gray100);
+}
+
+h4 {
+    font-size: var(--font-size-3);
+    font-weight: var(--font-weight-3);
+    color: var(--grey100);
+}
+
+h5 {
+    font-size: var(--font-size-4);
+    font-weight: var(--font-weight-3);
+    color: var(--grey100);
+}
+
+h6 {
+    font-size: var(--font-size-5);
+    font-weight: var(--font-weight-3);
+    color: var(--gray100);
+}
