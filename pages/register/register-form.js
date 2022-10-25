@@ -24,7 +24,7 @@ async function inputs (){
                 body.append(successPopUp ("Sua conta foi criada com sucesso, você será redirecionado para a página de login.", "Conta criada com sucesso"))
                 const queryPop = document.querySelector(`.pop-up`)
                 setTimeout(() => {queryPop.remove()}, 5000)
-                setTimeout(() => {window.location.assign("../../index.html", "_self")}, 5300)
+                setTimeout(() => {window.location.assign("/index.html", "_self")}, 5300)
                 
             }
         })
