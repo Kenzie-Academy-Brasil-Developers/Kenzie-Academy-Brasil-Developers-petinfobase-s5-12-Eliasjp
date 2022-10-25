@@ -22,7 +22,7 @@ function inputValues (){
             const profile = await getProfile (response.token)
             profile.token = response.token
             setLoginStorage (profile)
-            window.location.assign("../../pages/home/home.html")
+            window.location.assign("../pages/home/home.html")
         } else {
             const inputEmail = document.querySelector(`#email`)
             const inputPassword = document.querySelector(`#password`)
